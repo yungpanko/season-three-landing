@@ -3,14 +3,10 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
+import tools from '../assets/images/tools.jpg'
+import draw from '../assets/images/draw.jpg'
+import workshop from '../assets/images/workshop.jpg'
+import rainy from '../assets/images/rainy.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -28,14 +24,14 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${tools})`}}>
                             <header className="major">
                                 <h3>Technology</h3>
                                 <p>Weatherproof and Breathable</p>
                             </header>
                             <Link to="#technology" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${draw})`}}>
                             <header className="major">
                                 <h3>Design</h3>
                                 <p>Built to be worn all day</p>
@@ -73,15 +69,15 @@ class HomeIndex extends React.Component {
                     </section>
                     <section id="two" className="spotlights">
                         <section id="technology">
-                            <Link to="/generic" className="image">
-                                <img src={pic08} alt="" />
+                            <Link to="#technology" className="image">
+                                <img src={workshop} alt="" />
                             </Link>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
                                         <h3>Technology</h3>
                                     </header>
-                                    <p>Weatherproof materials keep air out but allow your feet to breathe.</p>
+                                    <p>Weatherproof materials keep water out but allow your feet to breathe.</p>
                                     <ul className="actions">
                                         {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
                                     </ul>
@@ -89,8 +85,8 @@ class HomeIndex extends React.Component {
                             </div>
                         </section>
                         <section id="design">
-                            <Link to="/generic" className="image">
-                                <img src={pic09} alt="" />
+                            <Link to="#design" className="image">
+                                <img src={rainy} alt="" />
                             </Link>
                             <div className="content">
                                 <div className="inner">
