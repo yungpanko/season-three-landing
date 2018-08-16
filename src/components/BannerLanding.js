@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const BannerLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
