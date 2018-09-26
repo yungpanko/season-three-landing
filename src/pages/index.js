@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
                     <meta name="description" content={siteDescription} />
                 </Helmet>
 
-                <Banner />
+                <Banner/>
 
                 <div id="main">
                     <section id="one" className="tiles">
@@ -117,6 +117,11 @@ export const query = graphql`
         }
         draw: imageSharp(id: { regex: "/draw.jpg/" }) {
           sizes(maxWidth: 800 ) {
+            ...GatsbyImageSharpSizes
+          }
+        }
+        logo: imageSharp(id: { regex: "/s3.png/" }) {
+          sizes(maxWidth: 300 ) {
             ...GatsbyImageSharpSizes
           }
         }
