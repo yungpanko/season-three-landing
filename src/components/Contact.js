@@ -19,26 +19,34 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div> */}
                     <ul className="actions">
-                        <li><input type="submit" value="Join for updates" className="special" /></li>
+                        <li><input type="submit" value="Join for early access" className="special" /></li>
                         {/* <li><input type="reset" value="Clear" /></li> */}
                     </ul>
                 </form>
             </section>
             <section className="split">
-                <section>
+              <section>
+                  <div className="inner">
+                      <header className="major">
+                          <h2>SEASON THREE BOOTS</h2>
+                      </header>
+                      <p>Never comprimise on style or utility again.</p>
+                </div>
+              </section>
+                {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
                         <a href="#">info@season3.co</a>
                     </div>
                 </section>
-                {/* <section>
+                <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
                         <span>(000) 000-0000 x12387</span>
                     </div>
-                </section> */}
+                </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
@@ -47,7 +55,7 @@ const Contact = (props) => (
                         Cambridge, MA 02139<br />
                         </span>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
     </section>

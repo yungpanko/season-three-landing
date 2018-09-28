@@ -48,10 +48,10 @@ class HomeIndex extends React.Component {
                                     <header className="major">
                                         <h3>Technology</h3>
                                     </header>
-                                    <p>Weatherproof materials keep water out but allow your feet to breathe.</p>
-                                    <ul className="actions">
-                                        {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
-                                    </ul>
+                                    <p>Weatherproof leather keeps water out but allows your feet to breathe. Non-slip rubber soles keep your steps stable in wet and icy conditions. Goodyear construction seals water out and can be reconstructed. Rust resistant metal hardware stays strong for years to come.</p>
+                                    {/* <ul className="actions">
+                                        <li><Link to="/generic" className="button">Learn more</Link></li>
+                                    </ul> */}
                                 </div>
                             </div>
                         </section>
@@ -64,25 +64,26 @@ class HomeIndex extends React.Component {
                                     <header className="major">
                                         <h3>Design</h3>
                                     </header>
-                                    <p>Fashionable design meets superior comfort.</p>
-                                    <ul className="actions">
-                                        {/* <li><Link to="/generic" className="button">Learn more</Link></li> */}
-                                    </ul>
+                                    <p>Made in Italy using high quality leather and materials. Merino wool lining and comfortable insole allows you to walk effortlessly through the city. Vibram outsole provides stylish touch without making too much of a statement.</p>
+                                    {/* <ul className="actions">
+                                        <li><Link to="/generic" className="button">Learn more</Link></li>
+                                    </ul> */}
                                 </div>
                             </div>
                         </section>
                       </section>
-                    <section id="three">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Join the waiting list</h2>
-                            </header>
-                            <p>Be the first to find out about our product launches.</p>
-                            <ul className="actions">
-                                <li><Link to="#contact" className="button next">Sign Up</Link></li>
-                            </ul>
-                        </div>
-                    </section>
+                      <section id="three">
+                          <div className="inner">
+                              <header className="major">
+                                  <h2>Join our community</h2>
+                              </header>
+                              <p>Be the first to find out when our product launches</p>
+                              <ul className="actions">
+                                  <li><Link to="#contact" className="button next">Sign Up</Link></li>
+                              </ul>
+                          </div>
+                      </section>
+
                 </div>
 
             </div>
