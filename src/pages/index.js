@@ -77,7 +77,7 @@ class HomeIndex extends React.Component {
                               <header className="major">
                                   <h2>Join our community</h2>
                               </header>
-                              <p>Be the first to find out when our product launches</p>
+                              <p>Be the first to find out when our product launchesg</p>
                               <ul className="actions">
                                   <li><Link to="#contact" className="button next">Sign Up</Link></li>
                               </ul>
